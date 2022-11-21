@@ -1,0 +1,30 @@
+{
+  "type": "module",
+  "name": "tuiter-node-server-app",
+  "version": "1.0.0",
+  "description": "Node.js HTTP Web server for the Tuiter application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Subhankar29/tuiter-node-server-app.git"
+  },
+  "keywords": [
+    "Node",
+    "Rest",
+    "Server",
+    "HTTP"
+  ],
+  "author": "Subhankar Shah",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Subhankar29/tuiter-node-server-app/issues"
+  },
+  "homepage": "https://github.com/Subhankar29/tuiter-node-server-app#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2"
+  }
+}
