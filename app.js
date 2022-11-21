@@ -1,9 +1,9 @@
 import express from 'express'
 import cors from 'cors'
 
-import HelloController from "./controllers/hello-controller.js";
-import UserController from "./controllers/users/users-controller.js";
-import TuitController from "./controllers/tuits/tuit-controller.js";
+import HelloController from "./src/controllers/hello-controller.js";
+import UserController from "./src/controllers/users/users-controller.js";
+import TuitController from "./src/controllers/tuits/tuit-controller.js";
 
 const app = express()
 
